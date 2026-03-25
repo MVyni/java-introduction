@@ -1,4 +1,4 @@
-package ex06_poo;
+package ex06_poo.ex01_class_obj;
 
 public class Book {
     String title;

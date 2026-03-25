@@ -1,4 +1,4 @@
-package ex06_poo;
+package ex06_poo.ex01_constructors;
 
 public class Student {
     String name;

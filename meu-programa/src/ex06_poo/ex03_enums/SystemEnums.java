@@ -1,4 +1,4 @@
-package ex06_poo.ex07_enums;
+package ex06_poo.ex03_enums;
 
 public class SystemEnums {
     public static void main(String[] args) {
