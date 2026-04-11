@@ -13,7 +13,7 @@ public class Students {
         students.put("Alice", 10.0);
 
         System.out.println(students.get("Vynicius"));
-        System.out.println(students.replace("Lucas", 8.5));
+        System.out.println(students.put("Lucas", 8.5));
 
         for(Map.Entry<String, Double> entry : students.entrySet()) {
             System.out.println(entry.getKey() + " = " + entry.getValue());

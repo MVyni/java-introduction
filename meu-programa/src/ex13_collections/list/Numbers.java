@@ -18,7 +18,20 @@ public class Numbers {
             System.out.println(num);
 
             sum+= num;
-            System.out.println("Sum " + sum);
         }
+
+        int smallNum = numbers.get(0);
+        int largestNum = numbers.get(0);
+
+        for(Integer num : numbers) {
+            largestNum = num > largestNum ? num : largestNum;
+
+            smallNum = num < smallNum ? num : smallNum;
+        }
+
+        System.out.println("Total: " + sum);
+        System.out.println("The largest num: " + largestNum);
+        System.out.println("The smallest number: " + smallNum);
     }
+
 }

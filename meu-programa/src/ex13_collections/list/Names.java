@@ -18,9 +18,9 @@ public class Names {
         }
 
         System.out.println("First name: " + names.get(0));
-        System.out.println("Second name: " + names.get(4));
+        System.out.println("Last name: " + names.get(names.size() - 1));
 
-        names.remove(4);
+        names.remove("lucas");
 
         System.out.println("The size of list: " + names.size());
     }
